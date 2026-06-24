@@ -1,1 +1,119 @@
+# XYZ Banking Application Testing
+
+This project focuses on **manual testing of a banking web application** to validate the functionality, reliability, and correctness of core banking workflows such as **login, account summary, fund transfer, beneficiary management, transaction history, and account services**.
+
+The project was created to demonstrate practical skills in **manual testing, test case design, defect reporting, validation testing, and QA documentation** for a banking domain application.
+
+## Project Objective
+
+The objective of this project is to test the critical functionalities of a banking application, identify defects across major banking modules, and document the findings using structured testing artifacts such as **test cases** and **bug reports**.
+
+This project demonstrates understanding of banking application workflows and practical application of **Manual Testing, Functional Testing, Negative Testing, Validation Testing, and Defect Reporting**.
+
+
+## Application Type
+
+**Web-based Banking Application**
+
+## Modules Tested
+
+The following modules were covered during testing:
+
+* Login
+* Account Summary / Dashboard
+* Beneficiary Management
+* Fund Transfer
+* Transaction History
+* Profile / Account Settings
+* Logout
+
+## Testing Scope
+
+The testing scope included validation of the following functionalities:
+
+* Login validation with valid and invalid credentials
+* Error handling for invalid username/password
+* Account summary and balance display verification
+* Beneficiary addition, update, and deletion validation
+* Fund transfer functionality between accounts
+* Validation of mandatory fields in transfer forms
+* Transaction history display and transaction details verification
+* Session handling and logout validation
+
+
+## Testing Types Performed
+
+* Functional Testing
+* Negative Testing
+* Validation Testing
+* UI Testing
+* Defect Reporting
+
+## Deliverables Included
+
+This project folder contains the following testing documents:
+
+* **01_Project_Overview.docx** – Project overview, modules covered, scope of testing, and tools used
+* **02_Test_Cases.xlsx** – Test cases created for major banking workflows and validation scenarios
+* **03_Bug_Report.xlsx** – Bug log containing defects identified during testing with severity and status
+* **04_Bug_Report.docx** – Formal bug report / defect summary document
+
+## Key Test Areas Covered
+
+The testing focused on validating important banking workflows such as:
+
+* Secure login functionality
+* Correct account information display
+* Beneficiary management operations
+* Fund transfer validation
+* Input field validation and error handling
+* Transaction history correctness
+* Session timeout and logout behavior
+
+## Sample Defects Identified
+
+Examples of defects that may be identified in this project include:
+
+* Invalid login error message not displayed properly
+* Beneficiary added without mandatory field validation
+* Fund transfer allowed with invalid amount input
+* Transaction history not showing recent transactions correctly
+* Incorrect account balance displayed after transfer
+* Session not expiring after inactivity
+* Logout not terminating session properly
+
+## Tools Used
+
+* Manual Testing
+* Microsoft Excel
+* Microsoft Word
+* Google Chrome
+
+## Folder Structure
+
+```text
+Banking-Application-Testing/
+│
+├── README.md
+├── 01_Project_Overview.docx
+├── 02_Test_Cases.xlsx
+├── 03_Bug_Report.xlsx
+└── 04_Bug_Report.docx
+```
+
+
+## Learning Outcome
+
+This project helped strengthen my understanding of:
+
+* Testing real-world banking workflows
+* Writing test cases for financial transactions and validations
+* Identifying and documenting defects in a structured format
+* Performing functional and negative testing on business-critical modules
+* Preparing QA documentation for a testing portfolio
+
+
+## Author
+
+**Ajay Sammeta**
 
