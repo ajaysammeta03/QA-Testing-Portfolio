@@ -1,0 +1,114 @@
+### E-commerce Website Testing 
+
+
+## Project Included
+
+### E-commerce Website Testing
+
+This project focuses on manual testing of an **E-commerce web application** to verify the functionality, usability, and correctness of key user workflows. Testing was performed on major modules such as **login, product page, cart, checkout, shipping details, and order confirmation**.
+
+
+## Project Objective
+
+The objective of this project is to test the core functionalities of the application, identify defects in different modules, and document the findings using structured testing artifacts such as **test cases** and **bug reports**.
+
+
+## Application Type
+
+**Web-based E-commerce Application**
+
+## Modules Tested
+
+The following modules were covered during testing:
+
+* Login
+* Product Page
+* Cart
+* Checkout
+* Shipping Details
+* Order Confirmation
+
+## Testing Scope
+
+The testing scope included validation of the following functionalities:
+
+* User login validation
+* Product name and product description verification
+* Reset App State functionality
+* Product quantity and size selection validation
+* Cart and checkout behavior
+* Order placement validation
+* Shipping information validation
+* Order confirmation details verification
+
+
+## Testing Types Performed
+
+* Functional Testing
+* Negative Testing
+* Validation Testing
+* UI Testing
+* Defect Reporting
+
+## Deliverables Included
+
+This repository contains the following project documents:
+
+* **01_Project_Overview.docx** – Project overview, scope, modules covered, testing types, and tools used
+* **02_Test_Cases.xlsx** – Test cases designed for different modules and workflows
+* **03_Bug_Report.xlsx** – Bug log containing identified defects with bug details, severity, and status
+* **04_Bug_Report.docx** – Formal bug report document summarizing the defects identified during testing
+
+## Key Defects Identified
+
+Some of the defects identified during testing include:
+
+* SQL Injection vulnerability in login functionality
+* Product name mismatch on product page
+* Product description mismatch
+* Reset App State not working as expected
+* Quantity selection option not available before adding product to cart
+* Size selection option not available before adding product to cart
+* User able to place an order with no products in cart
+* Invalid postal codes accepted by the application
+* Address and phone number missing in shipping details
+* Order ID not displayed after order confirmation
+
+
+## Tools Used
+
+* Manual Testing
+* Microsoft Excel
+* Microsoft Word
+* Google Chrome
+
+---
+
+## Repository Structure
+
+```text
+qa-testing-portfolio/
+│
+├── README.md
+│
+└── Ecommerce-Website-Testing/
+    ├── 01_Project_Overview.docx
+    ├── 02_Test_Cases.xlsx
+    ├── 03_Bug_Report.xlsx
+    └── 04_Bug_Report.docx
+```
+
+## Learning Outcome
+
+This project helped me strengthen my understanding of:
+
+* Writing and organizing test cases
+* Performing functional and negative testing
+* Identifying and documenting defects in a structured format
+* Validating user workflows and business rules
+* Preparing QA documentation for a testing portfolio
+
+
+## Author
+
+**Ajay Sammeta**
